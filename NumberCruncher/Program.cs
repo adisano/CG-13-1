@@ -1,12 +1,17 @@
 ﻿using System;
+using NumberUtility;
+using System.Collections.Generic;
 
-namespace NumberCruncher
+namespace NumberProject
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NumberCruncher numberCruncher = new NumberCruncher();
+
+            numberCruncher.Run();
+            Console.ReadLine();
         }
     }
 }
